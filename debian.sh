@@ -16,7 +16,7 @@ osu-wine
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1xgJIe18ccBx6yjPcmBxDbTnS1XxwrAcc' -O wine-osu-7.0-x86_64.pkg.tar.zst
 tar -xf wine-osu-7.0-x86_64.pkg.tar.zst
 sudo cp -r ./opt/wine-osu/ /opt
-sudo nano /etc/osu-wine.conf
+sudo cp ./osu-wine.conf /etc/osu-wine.conf
 echo "################################################################"
 echo "##### The install has been completed. Enjoy your suffering #####"
 echo "################################################################"
